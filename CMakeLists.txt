@@ -8,4 +8,6 @@ add_library(matrix_static_lib STATIC matrix_multiplication.cpp
         include/utils/PrintMatrix.h
         utils/NulMatrix.cpp
         utils/CreateRandFile.cpp
-        include/utils/CreateMatrixFile.h)
+        include/utils/CreateMatrixFile.h
+        utils/ClearMemoryArray.cpp
+        utils/CreateMatrixFile.cpp)
