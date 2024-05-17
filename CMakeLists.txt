@@ -3,7 +3,7 @@ project(matrix_static_lib)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(matrix_static_lib STATIC matrix_multiplication.cpp
+add_library(matrix_static_lib STATIC
         utils/PrintMatrix.cpp
         include/utils/PrintMatrix.h
         utils/NulMatrix.cpp
